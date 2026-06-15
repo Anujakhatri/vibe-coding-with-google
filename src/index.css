@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+:root {
+  --bg-color: #020617;
+  --card-bg: #0f172a;
+  --card-border: #1e293b;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --accent-snow: #38bdf8;
+  --accent-balloon: #fb7185;
+  --btn-bg: rgba(255, 255, 255, 0.02);
+  --btn-hover: rgba(255, 255, 255, 0.05);
+  --btn-border: #1e293b;
+  --bg-gradient: radial-gradient(circle at 50% 30%, #1e293b 0%, transparent 70%), radial-gradient(circle at 80% 80%, #0c4a6e 0%, transparent 50%);
+}
+
+:root[data-theme="light"] {
+  --bg-color: #f8fafc;
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --accent-snow: #0284c7; /* Darker key blue for optimal contrast */
+  --accent-balloon: #e11d48; /* Contrastful deep rose pink */
+  --btn-bg: rgba(15, 23, 42, 0.02);
+  --btn-hover: rgba(15, 23, 42, 0.05);
+  --btn-border: #e2e8f0;
+  --bg-gradient: radial-gradient(circle at 50% 30%, #f1f5f9 0%, transparent 70%), radial-gradient(circle at 80% 80%, #e0f2fe 0%, transparent 50%);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  background-image: var(--bg-gradient);
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), background-image 0.4s cubic-bezier(0.16, 1, 0.3, 1), color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom smooth transition classes */
+.theme-transition {
+  transition: background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), 
+              background-image 0.4s cubic-bezier(0.16, 1, 0.3, 1), 
+              border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), 
+              color 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+

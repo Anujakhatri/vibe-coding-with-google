@@ -1,0 +1,6 @@
+{
+  "name": "Atmospheric Effects Controller",
+  "description": "An interactive, elegant preview simulation platform for timed particle atmospheric streams of Snowflakes and Balloons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
