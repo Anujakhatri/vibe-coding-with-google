@@ -13,8 +13,8 @@ I am actively participating in this course and completing the daily tasks assign
 ### 📅 Daily Tasks Log
 
 - **Day 1**: *(Completed)*
-- **Day 2**: *(In progress)*
-- **Day 3**: *(Upcoming)*
+- **Day 2**: *(Completed)*
+- **Day 3**: *(In progress)*
 - **Day 4**: *(Upcoming)*
 - **Day 5**: *(Upcoming)*
 
