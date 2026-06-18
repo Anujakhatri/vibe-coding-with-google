@@ -14,8 +14,8 @@ I am actively participating in this course and completing the daily tasks assign
 
 - **Day 1**: *(Completed)*
 - **Day 2**: *(Completed)*
-- **Day 3**: *(In progress)*
-- **Day 4**: *(Upcoming)*
+- **Day 3**: *(Completed)*
+- **Day 4**: *(In Progress)*
 - **Day 5**: *(Upcoming)*
 
 *(I will update the above tasks as I progress through the daily assignments!)*
